@@ -106,7 +106,7 @@ body {
     max-width: 1100px;
     margin: 0 auto; }
     .header .header__body .header__logo {
-      padding: 35px; }
+      padding: 32px 35px 35px 50px; }
     .header .header__body .header__menu {
       padding: 20px; }
       .header .header__body .header__menu .menu__body .menu__list {
@@ -123,7 +123,7 @@ body {
           .header .header__body .header__menu .menu__body .menu__list li:hover {
             background-color: #643a79; }
           .header .header__body .header__menu .menu__body .menu__list li:not(:last-child) {
-            margin: 0 10px 0 0; }
+            margin: 0 13px 0 0; }
         .header .header__body .header__menu .menu__body .menu__list .menu__link {
           color: #fff;
           font-size: 16px;
@@ -254,8 +254,8 @@ body {
     font-size: 42px;
     font-weight: 700;
     line-height: 48.82px;
-    margin: 0 0 70px 0;
-    padding: 0 128px; }
+    margin: 0 0 53px 0;
+    padding: 23px 128px 0; }
 
 .section2 {
   background-color: #17c2a4; }
@@ -270,7 +270,9 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0 0 115px 0; }
+  padding: 0 0 115px 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .section__columns .section__column {
     display: -webkit-box;
     display: -moz-box;
@@ -375,7 +377,8 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    font-size: 0; }
+    font-size: 0;
+    margin: 0 0 28px 0; }
     .section5 .section5__buttons .section5__btn {
       width: 84px;
       height: 38px;
@@ -405,9 +408,9 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
-    padding: 0 15px 20px; }
+    padding: 0 15px 45px; }
     .section5 .section__columns-row .section5__column {
-      padding: 61px 10px; }
+      padding: 30px 10px; }
       .section5 .section__columns-row .section5__column h3 {
         font-size: 18px;
         font-weight: 400;
